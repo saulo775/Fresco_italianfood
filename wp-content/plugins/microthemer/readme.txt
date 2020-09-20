@@ -98,10 +98,11 @@ Microthemer has built-in documentation! Just click the help icon (top right of t
 
 == Changelog ==
 
-= 6.3.1.1 (September 14th, 2020) =
+= 6.3.1.3 (September 17th, 2020) =
 
 # Bugs fixed
-* Elementor integration issue - some media query tabs were not adjusting the site preview correctly if Elementor was active inside MT (when they should have been syncing with Elementor device mode).
+* Microthemer did not sync the responsive views with Elementor correctly when adjusting the size of the left panel or the navigator on the right.
+* The Elementor preview URL parameter (elementor-preview) in MT's recently viewed pages menu could cause the 60 second site loading message to display.
 
 = 6.3.1.0 (September 13th, 2020) =
 

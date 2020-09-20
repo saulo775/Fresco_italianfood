@@ -30,3 +30,44 @@
 	padding-bottom: 20px !important;
 }
 
+
+/*( Tablet & celular )*/
+@media (max-width: 767px) {
+
+	/*= Conteúdo ================= */
+
+	/** Conteúdo >> titulo cardapio home **/
+	#post-9 .cardapiohome .uagb-rm__title-wrap {
+	width: 165px !important;
+}
+
+
+}
+
+
+/*( Celular )*/
+@media (max-width: 480px) {
+
+	/*= Conteúdo ================= */
+
+	/** Conteúdo >> titulo fresco **/
+	.uagb-infobox-has-image .uagb-ifb-title-prefix {
+	font-size: 80px !important;
+}
+
+	/** Conteúdo >> subtitulo fresco **/
+	#post-9 h1 {
+	line-height: 1 !important;
+	text-align: center !important;
+	word-spacing: 6px !important;
+	direction: ltr !important;
+}
+
+	/** Conteúdo >> fonte link cardapio completo **/
+	.uagb-block-a1329463 .uagb-button__link {
+	font-size: 15px !important;
+}
+
+
+}
+
